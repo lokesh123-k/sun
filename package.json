@@ -1,0 +1,27 @@
+{
+  "name": "steel-fab-company",
+  "version": "1.0.0",
+  "description": "MERN Stack Steel Fabrication Company Website",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node.js",
+    "express",
+    "mongodb",
+    "steel-fabrication"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
